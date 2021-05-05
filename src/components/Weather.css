@@ -1,0 +1,24 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.location {
+  background: rgba(0, 0, 0, 0.13);
+  padding: 1em;
+}
+.location input {
+  border: none;
+  padding: 0.5em 1em;
+  margin: 1em;
+  outline: none;
+  font-size: 1.5rem;
+}
+.location label {
+  font-size: 1.5rem;
+}
+.submit {
+  font-size: 1.2rem;
+  padding: 0.5em 2em;
+}
